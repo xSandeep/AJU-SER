@@ -21,19 +21,19 @@ const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
       var ucapanWaktu = "Good night";
     }
     if (time2 < "19:00:00") {
-      var ucapanWaktu = "Good evening🌞";
+      var ucapanWaktu = "Good evening😐";
     }
     if (time2 < "18:00:00") {
-      var ucapanWaktu = "good afternoon🌄";
+      var ucapanWaktu = "good afternoon😑";
     }
     if (time2 < "15:00:00") {
-      var ucapanWaktu = "good afternoon☀️";
+      var ucapanWaktu = "good afternoon😑";
     }
     if (time2 < "11:00:00") {
-      var ucapanWaktu = "Good morning🌅";
+      var ucapanWaktu = "Good morning😘";
     }
     if (time2 < "05:00:00") {
-      var ucapanWaktu = "Good night🌃";
+      var ucapanWaktu = "Good night😎";
     }
 const runtime = function (seconds) {
   seconds = Number(seconds);
